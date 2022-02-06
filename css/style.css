@@ -10,7 +10,7 @@
 }
 body {
     margin: 0;
-    font-family: 'Archivo', sans serif;
+    font-family: 'Montserrat', sans serif;
 }
 /* header styles */
 header {
@@ -26,7 +26,7 @@ header {
     margin: 0;
 }
 .nav-item {
-    font-family: 'Archivo';
+    font-family: 'Montserrat';
     font-weight: 100;
     font-size: 1.4rem;
     list-style-type: none;
@@ -40,11 +40,13 @@ h1 {
     font-size: 2.8rem;
     line-height: 3rem;
     margin: 1rem;
+    letter-spacing: .15rem;
+    font-weight: thin;
 }
 
 /* hero section styles */
 .hero img {
-    width: 100vh;
+    width: 70%;
 }
 .hero {
     background-color: var(--almost-black);
@@ -52,6 +54,39 @@ h1 {
 }
 h2 {
     color: var(--goldenrod);
+    font-weight: 800;
+}
+.hero-container {
+    display: flex;
+    border: 1px solid red;
+}
+.hero-statement {
+    padding: 20px;
+    align-self: flex-end;
+    margin: 4rem 2rem;
+}
+.button {
+    border: 1px solid var(--goldenrod);
+    width: 222px;
+    height: 44px;
+    background-color: rgba(0, 0, 0, 0);
+    color: var(--goldenrod);
+    border-radius: 20px;
+    font-size: 1.1rem;
+    font-weight: 100;
+    font-family: 'Montserrat', sans serif;
+}
+.button:hover {
+    background-color: var(--goldenrod);
+    color: var(--white);
+}
+@media only screen and (max-width: 1100px) {
+    .hero-container {
+        display: block;
+    }
+    .hero img {
+        width: 100%;
+    }
 }
 /* footer styles */
 footer {
