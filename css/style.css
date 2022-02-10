@@ -91,6 +91,23 @@ h2 {
         padding-bottom: 4rem;
     }
 }
+
+/* About styles */
+.about {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 20px;
+}
+.skills-container {
+    grid-column: 2 / 5;
+    border: 1px solid red;
+}
+.about-container {
+    grid-column: 5 / 11;
+    border: 1px solid blue;
+
+}
+
 /* footer styles */
 footer {
     text-align: center;
