@@ -13,9 +13,10 @@
         <header class="navigation">
             <nav>
                 <ul class="nav-list">
-                    <li class="nav-item"><a href="#">My Work</a></li>
-                    <li class="nav-item"><h1>Sorcha Douglas</h1></li>
-                    <li class="nav-item"><a href="#">Resume</a></li>
+                    <li class="nav-item"><a href="#"><h3>My Work</h3></a></li>
+                    <li class="nav-item" id="name"><h1>Sorcha Douglas</h1></li>
+                    <li class="nav-item"><a href="#"><h3>Resumé</h3></a></li>
+                    <li class="nav-item" id="hamburger-menu"><img src="img/hamburger-med.svg"></li>
                 </ul>
             </nav>
         </header>
@@ -23,7 +24,8 @@
             <div class="hero-container">
                 <img src="img/sd_portrait_wide.jpeg">
                 <div class="hero-statement">
-                    <h2>This is my value proposition statement placeholder</h2>
+                    <h2>Hi, I'm Sorcha!</h2>
+                    <p>UX/UI Designer and Developer</p>
                     <button class="button">a button</button>
                 </div>
             </div>
@@ -31,30 +33,32 @@
         <section class="about">
            <div class="skills-container">
                <div class="skills-headline">
-                <h4>My Skills</h4>
+                    <h4>My Skills</h4>
                </div>
-               <ol>
-                   <li>Design Thinking</li>
-                   <li>Usability Testing</li>
-                   <li>Invision</li>
-                   <li>HTML</li>
-                   <li>CSS</li>
-                   <li>JavaScript
-                       <ol>
-                           <li>jQuery, Vue.js, and p5.js libraries</li>
-                       </ol>
-                   </li>
-                   <li>GitHub</li>
-                   <li>Bootstrap</li>
-               </ol>
+               <div class="skills-list">
+                <ol>
+                    <li>Design Thinking</li>
+                    <li>Usability Testing</li>
+                    <li>Invision</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript
+                    <li>jQuery</li>
+                    </li>
+                    <li>GitHub</li>
+                    <li>Bootstrap</li>
+                    </ol>
+                </div>
            </div>
            <div class="about-container">
                <h2>About Me</h2>
-               <p>With my foundations in customer service and user research at the Minneapolis Institute of Art, I've come to the UX field with a unique skill-set and focus on centering users. I'm driven by a desire to make digital experiences of public services, like government administration, transit, and education more equitable and accessible.
-               </p>
+               <p>With my foundations in customer service and user research at the Minneapolis Institute of Art, I've come to the UX field with a broad skillset and a mission to center users in all that I do. I'm driven by a desire to make digital experiences of public services, like government administration, transit, and education more equitable and accessible. 
+                </p>
+                <p>These are the everday services that we all interact with, and yet they're often arduous, complex, and frustrating experiences. More importantly, when the challenges of navigating these services becomes great, they become barriers to people accessing their basic needs. My approach to UX is to take aim at these experiences to make them the public goods we all need them to be.
+                </p>
                <img> <!--placeholder-->
                <p>
-                My knowledge of web development, design-thinking, and quantitative and qualitative analytics makes me uniquely equipped to take on UX challenges of this kind.
+                My knowledge of web development, design-thinking, and quantitative and qualitative analytics makse me uniquely equipped to take on UX challenges of this kind.
                </p>
            </div>
         </section>
@@ -80,25 +84,35 @@
                 </article>
                 <article class="card card-3">
                     <div class="card-contents">
-                        <h4>Case Study about Museum Collection Site</h4>
+                        <h4>Case Study on Museum Collection Site</h4>
                         <p>Date of Case Study</p>
                         <hr class="card-line">
                     </div>
                 </article>
+                <div class="more-studies">
+                    <a href="#"><img src="img/arrow-circle-dark.png"></a>
+                    <h5>See More Case Studies</h5>
+                </div>
             </div>
         </section>
         <footer>
             <div class="footer-nav">
                     <h1>Sorcha Douglas</h1>
+                <div class="footer-logo">
+                    <img src="img/squiggle-short-goldenrod.png" alt="decorative yellow squiggle line">
+                </div>
                 <ul class="footer-nav-list">
-                    <li class="icon-item"><a href="#"><img src="img/email-icon.svg"></a></li>
                     <li class="icon-item"><a href="#"><img src="img/linkedin-icon.svg"></a></li>
+                    <li class="icon-item"><a href="#"><img src="img/email-icon.svg"></a></li>
                     <li class="icon-item"><a href="#"><img src="img/github-icon.svg"></a></li>
                 </ul>
                 <div class="contact-email">
                     <p>&#128075;  Say hello at</p>
                     <a href="#">s.douglas0417@gmail.com</a>
                 </div>
+                <!-- <div class="footer-logo">
+                    <img src="img/squiggle-short-goldenrod.png" alt="decorative yellow squiggle line">
+                </div> -->
             </div>
             <p class="copyright">&#169; copyright Sorcha Douglas. 2022.</p>
         </footer>
