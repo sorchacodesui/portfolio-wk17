@@ -17,6 +17,7 @@ h1 {
     font-size: 3rem; /* 54pt*/
     letter-spacing: .15rem;
     font-weight: 100;
+    color: red;
 }
 h2 {
     font-size: 1.9rem;
